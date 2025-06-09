@@ -14,7 +14,6 @@ permalink: /research/
 </style>
 
 
-
 <div style="text-align: left; margin-bottom: 1em;">
   <h3 style="color:rgb(238, 188, 108);font-weight: normal;">
     1-	Inference of preference measures in economic decision making
