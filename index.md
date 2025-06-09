@@ -16,7 +16,7 @@ title: about
   .responsive-photo {
     float: none;
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 0 auto 10px auto;
   }
 }
