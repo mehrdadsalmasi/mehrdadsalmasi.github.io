@@ -1,16 +1,28 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
 title: about
 ---
 
+<style>
+.responsive-photo {
+  float: right;
+  width: 35%;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 
-<img src="/files/profile_picture.jpg" alt="Description of your image" style="float: right; width: 35%; height: auto; margin-left: 20px; margin-bottom: 10px;">
+@media (max-width: 600px) {
+  .responsive-photo {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+}
+</style>
+
+<img src="/files/profile_picture.jpg" alt="Profile picture" class="responsive-photo">
 
 
 I am a researcher in theoretical/computational neuroscience, with interests ranging from information flow in synaptic communication to probabilistic models of economic decision-making and the overarching realm of Bayesian brain. 
