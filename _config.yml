@@ -1,0 +1,36 @@
+title: Mehrdad Salmasi
+author:
+  name: 
+  url: mehrdadsalmasi.github.io
+  email: m.salmasi@ucl.ac.uk
+
+google_analytics: G-6HF1E4J7G1
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
+minima:
+  # Minima skin selection. Available skins are:
+  #   Available skins:
+  #     * classic            Default, light color scheme.
+  #     * dark               Dark variant of the classic skin.
+  #     * auto               Adaptive skin based on the default classic and dark skins.
+  #     * solarized-light    Light variant of solarized color scheme.
+  #     * solarized-dark     Dark variant of solarized color scheme.
+  #     * solarized          Adaptive skin for solarized color scheme skins.
+  skin: dark
+
+  # Specific pages for site navigation.
+  nav_pages:
+    - index.md
+    - research.md
+
+  # Set to `true` to show excerpts on the homepage.
+  show_excerpts: false
