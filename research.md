@@ -5,9 +5,9 @@ permalink: /research/
 ---
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108);font-weight: normal;">
     1-	Inference of preference measures in economic decision making
-  </h1>
+  </h3>
 </div>
 
 Optimal decision-making in volatile environments requires the brain to effectively represent uncertainty. While expected utility theory provides a framework for understanding choices under uncertainty, its limitations have motivated the exploration of alternative normative and descriptive theories. However, the specific preference measure employed by the brain remains unclear. 
@@ -27,9 +27,9 @@ In this project, we introduce a novel approach for identifying an agent’s unde
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     2-	Dopaminergic computation of economic preferences
-  </h1>
+  </h3>
 </div>
 
 Various frameworks have been proposed to characterize how the brain represents reward distributions. Distributed distributional coding (DDC) posits that dopamine neurons represent reward distributions via the expected values of their encoding functions. We introduce a biologically plausible recursive update rule that operates on received reward instances and demonstrate that the responses of dopamine neurons converge to the DDC representation of the reward distribution.
@@ -44,9 +44,9 @@ A linear projection of dopamine neurons computes the expected utility of the rew
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     3-	Learning efficient distributional codes
-  </h1>
+  </h3>
 </div>
 
 The precise mechanisms by which the brain learns efficient representations for uncertainty and probability distributions remain unresolved. In this project, we consider distributed distributional codes (DDC) to represent a probability distribution and propose an information-theoretic approach for learning DDC encoding functions. We assume that the distributional beliefs have a sparse representation in some basis and employ a generative model with hierarchical priors to model noisy DDC values. We find a posterior distribution over the distributional beliefs that are consistent with the observed DDC values. The encoding functions are modified to minimize agent’s uncertainty about the belief. This is achieved by minimizing the entropy of the posterior distribution over the beliefs. We show that the learned encoding functions can capture some of the properties of neuronal tuning functions.
@@ -60,9 +60,9 @@ The precise mechanisms by which the brain learns efficient representations for u
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     4-	Spatial navigation under uncertainty
-  </h1>
+  </h3>
 </div>
 
 Spatial navigation is conducted through combining path integration signals with incoming sensory modalities. The noise and intrinsic ambiguity of the sensory signals together with the noisy path integration system lead to positional uncertainty. To behave optimally in a navigation task, the agents should take into account the uncertainty of the input signals and infer a distributional belief about their location. Different frameworks have been suggested for the representation of positional uncertainty in the brain, such as sampling, probabilistic population codes, and distributed distributional codes (DDC). However, it remains unclear how the brain represents positional beliefs and how the hippocampus employs these representations to perform spatial navigation. 
@@ -77,9 +77,9 @@ We assume that given the history of sensory observations and efference copies of
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     5-	Planning under uncertainty
-  </h1>
+  </h3>
 </div>
 
 We have previously demonstrated how an agent can utilize distributed distributional codes (DDC) to perform probabilistic localization and structural learning. A central task in spatial navigation involves planning trajectories to reach designated goal locations. The neural mechanisms that support planning under uncertainty remain relatively unexplored. 
@@ -95,9 +95,9 @@ We show that for each action, a weighted sum of the DDC values provides the expe
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     6-	Information flow in dynamic synapses
-  </h1>
+  </h3>
 </div>
 
 Chemical synapses transmit information by releasing vesicles packed with neurotransmitter. Synaptic release is not a reliable process, as sometimes action potentials fail to trigger the release, or vesicles are released spontaneously. We use a binary asymmetric channel to model a single release site. This model encompasses different modes of release in a synapse: synchronous spike-evoked release and asynchronous release; spontaneous release is also subsumed under asynchronous release. Short-term plasticity changes synaptic release probabilities based on the release history and spiking activity profile of the synapse. We extend our model to plastic synapses by adding a memory to the binary asymmetric channel; the state of the channel is determined by its memory content. We calculate the mutual information rate and energy-normalized information rate of the synapse analytically. We then employ this analytical framework to investigate the functional role of short-term depression and facilitation, the energy-rate trade-off, and the effect of asynchronous and spontaneous release on synaptic transmission.
@@ -111,9 +111,9 @@ Chemical synapses transmit information by releasing vesicles packed with neurotr
 <!------------------------------------------------------------->
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     7-	Spike detection through fractal dimension analysis
-  </h1>
+  </h3>
 </div>
 
 Various algorithms have been proposed for spike detection and sorting in extracellular recording. Nevertheless, it is still challenging to detect spikes in low signal-to-noise ratio (SNR) regimes. We study the fractal properties of extracellular signals and demonstrate that the fractal dimension of the spike segments of the extracellular signal is on average lower than the fractal dimension of the noise segments. We incorporate this idea into a new spike detection algorithm, called fractal detector. We simulate extracellular signals using a dataset of spike shapes and model the noise signal by two components corresponding to thermal noise and inter-spike noise. We compare the performance of the fractal detector with the commonly used spike detectors (threshold detector, PCA-wavelet detector, and matched filter detector). We show that in low SNR regime, the fractal detector outperforms the other spike detectors.
@@ -128,9 +128,9 @@ Various algorithms have been proposed for spike detection and sorting in extrace
 
 
 <div style="text-align: left; margin-bottom: 1em;">
-  <h1 style="color:rgb(238, 188, 108); font-size: 1.45em;">
+  <h3 style="color:rgb(238, 188, 108); font-weight: normal;">
     8-	Spatial network coding
-  </h1>
+  </h3>
 </div>
 
 In conventional data networks, nodes function as passive relays, forwarding received packets to the next hop based on destination information. In contrast, when network coding is employed, intermediate nodes are allowed to compute and transmit functions of incoming packets. This strategy can increase the network’s information throughput in certain communication scenarios. 
