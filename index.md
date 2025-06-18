@@ -1,8 +1,5 @@
 ---
 layout: home
-title: about
-seo:
-  title: Mehrdad Salmasi
 ---
 
 <style>
