@@ -21,7 +21,7 @@ layout: home
 }
 </style>
 
-<img src="/files/profile_picture.jpg" alt="Mehrdad Salmasi" class="responsive-photo">
+<img src="/files/Mehrdad_Salmasi.jpg" alt="Mehrdad Salmasi" class="responsive-photo">
 
 
 I am a researcher in theoretical/computational neuroscience, with interests ranging from information flow in synaptic communication to probabilistic models of economic decision-making and the overarching realm of Bayesian brain. 
